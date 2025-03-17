@@ -1,2 +1,2 @@
 # JavaScript_Code
- In thos file lies several javascript exercises i did to upscale my knowledge
+ In this file there are several JavaScript exercises I did to upscale my knowledge
