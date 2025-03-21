@@ -1,0 +1,89 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling for a page-like appearance */
+  .container {
+    background-color: #2c2c2c;
+    padding: 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Title Styling */
+  h1 {
+    color: #adff2f;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input Styling */
+  input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    color: #fff;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #bfbfbf;
+  }
+  
+  input:focus {
+    border: 2px solid #adff2f;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #adff2f;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9be12b;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    background-color: #8dc927;
+    transform: translateY(0);
+  }
+  
+  /* Output Styling */
+  #output {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #adff2f;
+  }
+  
