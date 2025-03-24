@@ -12,7 +12,7 @@ const sortInputArray = (event) => {
   // const sortedValues = inputValues.insertionSort(inputValues)
   const sortedValues = inputValues.sort((a, b) => {
     return a - b;
-  });
+  });// Added a callback function because the default .sort() works alphabetically meaning "10" is before "2".
 
   updateUI(sortedValues);
 }
