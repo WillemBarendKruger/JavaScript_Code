@@ -1,6 +1,7 @@
 const getMean = (array) => array.reduce((acc, el) => acc + el, 0) / array.length;
 
 const getMedian = (array) => {
+  //sorts in in accending order
   const sorted = array.toSorted((a, b) => a - b);
   const median =
     sorted.length % 2 === 0
