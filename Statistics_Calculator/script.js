@@ -24,6 +24,7 @@ const getMode = (array) => {
   const mode = Object.keys(counts).filter(
     (el) => counts[el] === counts[highest]
   );
+ console.log(Math.max(...Object.values(counts)))
   return mode.join(", ");
 }
 
