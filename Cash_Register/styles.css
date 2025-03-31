@@ -1,0 +1,195 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color scheme */
+:root {
+  --primary-color: #adff2f; /* GreenYellow */
+  --secondary-color: #1e1e1e; /* Dark Gray */
+  --button-hover: #9be12b;
+  --text-color: #fff;
+  --register-color: #3a3a3a;
+  --screen-border: #adff2f;
+  --btn-color: #9be12b;
+}
+
+/* Body styling */
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Main layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+/* FreeCodeCamp logo */
+.freecodecamp-logo {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* Change Due Text */
+#change-due {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* Register container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input section */
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--register-color);
+  color: var(--text-color);
+}
+
+/* Register screen */
+.price-screen {
+  border: 10px solid var(--screen-border);
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  margin-left: -40px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Price text */
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Connector */
+.connector {
+  margin-left: -20px;
+  background-color: var(--primary-color);
+  height: 30px;
+  width: 40px;
+}
+
+/* Register top section */
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px 35px 0 0;
+  padding-top: 20px;
+  background-color: var(--register-color);
+  height: 250px;
+  width: 325px;
+}
+
+/* Button grid inside the register */
+.btns-container {
+  width: 25%;
+}
+
+.btn {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--btn-color);
+}
+
+/* Buttons */
+.check-btn-styles {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.check-btn-styles:hover {
+  background-color: var(--button-hover);
+  transform: translateY(-2px);
+}
+
+.check-btn-styles:active {
+  background-color: #8dc927;
+  transform: translateY(0);
+}
+
+/* Cash drawer display */
+.cash-drawer-display {
+  font-size: 1.1rem;
+  background-color: var(--text-color);
+  width: 55%;
+  height: 95%;
+  color: var(--secondary-color);
+  padding: 10px;
+  border: 5px solid;
+  border-color: #8dc927;
+}
+
+/* Register bottom section */
+.bottom-register {
+  background-color: var(--register-color);
+  height: 50px;
+  width: 325px;
+  margin-top: 10px;
+}
+
+/* Circular button at the bottom */
+.circle {
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--btn-color);
+}
