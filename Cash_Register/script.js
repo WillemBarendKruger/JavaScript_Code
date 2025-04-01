@@ -66,7 +66,7 @@ const checkCashRegister = () => {
   const result = { status: 'OPEN', change: [] };
   
   // Calculate total cash in drawer
-  const totalCID = reversedCid.reduce((prev, [_, amount]) => prev + amount, 0);
+  const totalCID = reversedCid.reduce((prev, [_, amount]) => prev + amount, 0); // _ is the denominationName but its unused
 
   if (totalCID < changeDue) { // Not enough funds to return the change
     displayChangeDue.innerHTML = '<p>Status: INSUFFICIENT_FUNDS</p>';
