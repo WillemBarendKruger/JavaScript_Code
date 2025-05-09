@@ -1,2 +1,2 @@
 //------------Instructions to run
-Run the index.html file in your browser
+Run the index.html file  and see changes in your browser
